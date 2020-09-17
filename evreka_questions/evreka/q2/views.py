@@ -30,4 +30,4 @@ def q2_fill():
 
 def q2_retrieve():
 	use_list = Use.objects.values("id_bin_id","id_op__name","collection_frequency")
-	print(list(use_list))
+	return list(use_list)
