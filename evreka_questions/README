@@ -1,0 +1,22 @@
+There are two django apps for questions q1 and q2.
+
+The related functions and models can be found in 
+/evreka_questions/evreka/q1/views.py
+/evreka_questions/evreka/q1/models.py
+/evreka_questions/evreka/q2/views.py
+/evreka_questions/evreka/q2/models.py 
+respectively.
+
+q1_fill() and q2_fill() functions in the views.py are to setup database with the dummy input files I wrote, which are input_q1.txt and input_q2.txt. 
+The database has already been constructed with these dummy inputs.   
+
+q1_retrieve() and q2_retrieve() are the main functions which are answers to the questions.
+
+
+The functions can be tested with :
+
+"python3 manage.py shell"
+"from q1.views import * "
+"from q2.views import * "
+"q1_retrieve()"
+"q2_retrieve()"
