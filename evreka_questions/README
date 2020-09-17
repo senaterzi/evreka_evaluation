@@ -13,10 +13,10 @@ The database has already been constructed with these dummy inputs.
 q1_retrieve() and q2_retrieve() are the main functions which are answers to the questions.
 
 
-The functions can be tested with :
+To run the functions: :
 
-"python3 manage.py shell"
-"from q1.views import * "
-"from q2.views import * "
-"q1_retrieve()"
-"q2_retrieve()"
+$ python3 manage.py shell
+>> from q1.views import * 
+>> from q2.views import * 
+>> q1_retrieve()
+>> q2_retrieve()
