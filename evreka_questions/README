@@ -21,4 +21,3 @@ $ python3 manage.py shell
 >> q1_retrieve()
 >> q2_retrieve()
 
-deneme
