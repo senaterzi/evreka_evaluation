@@ -20,3 +20,5 @@ $ python3 manage.py shell
 >> from q2.views import * 
 >> q1_retrieve()
 >> q2_retrieve()
+
+deneme
